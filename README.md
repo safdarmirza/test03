@@ -92,6 +92,9 @@ az role definition create --role-definition /path/to/file/myfile.json
 
 References: 
 [Custom Roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
+
 [Role Assignments Template](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-template)
+
 [Tutorial Custom Role CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/tutorial-custom-role-cli)
+
 [RBAC Resource Provider Operations](https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations)
