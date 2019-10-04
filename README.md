@@ -20,7 +20,7 @@ az account list --output table
 
 ### Step Two: Create a JSON file with following format: 
 
-When you create a custom role, you need to know the resource provider operations that are available to define your permissions. To view the list of operations, see the [Azure Resource Manager resource provider operations] (https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations). You will add the operations to the Actions or NotActions properties of the [role definition](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-definitions). If you have data operations, you will add those to the *DataActions* or *NotDataActions* properties.
+When you create a custom role, you need to know the resource provider operations that are available to define your permissions. To view the list of operations, see the [Azure Resource Manager resource provider operations](https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations). You will add the operations to the *Actions* or *NotActions* properties of the [role definition](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-definitions). If you have data operations, you will add those to the *DataActions* or *NotDataActions* properties.
 
 
 ** Skeleton  JSON File. **
@@ -91,6 +91,7 @@ az role definition create --role-definition /path/to/file/myfile.json
 
 
 References: 
+
 [Custom Roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
 
 [Role Assignments Template](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-template)
